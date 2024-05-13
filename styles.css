@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin: 3%;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    margin-left:30px ;
+
+}
+ul{
+    gap: 20px;
+    list-style: none;
+    
+}
+.home{
+    text-decoration: underline;
+}
+.header p{
+    font-size: 20px;
+}
+.header span{
+    font-style:bold;
+    color: rgb(34, 33, 33);
+}
+
+.back{
+    background-image: url(./image/jeu-tic-tac-toe-fille-afro-americaine-heureuse-dessine-lignes-blanches-pour-jouer-tableau-noir-du-mur_201836-2500.jpg);
+    height: 60vh;
+    
+}
+.back2{
+    margin-left: 10px;
+   padding: 20px;
+   color: white;
+}
+.back2 h1{
+    font-size: 25px;
+    margin: 2%;
+}
+.back2 p{
+    font-size: small;
+    padding-left: 2%;
+}
+.back .back2 button{
+    margin-top: 5%;
+    width: 100px;
+    height: 30px;
+    font-size: 9px;
+    background-color:grey;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    margin-left:2%;
+
+}
+
+
+.sec2{
+    margin: 5%;
+    
+}
+.sec2 h1{
+    text-align: center;
+    color:rgb(61, 60, 60);
+    font-size:35px;
+    margin: 2%;
+}
+
+.work h2{
+    font-size: 22px;
+    color: black;
+}
+.image2 img{
+    width: 350px;
+    height: 300px;
+    padding-left: 11%;
+}
+.gauche{
+    display: flex;
+    flex-direction: column;
+    margin-top: 11%;
+}
+.work{
+   
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.droit {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    font-size: 16px;
+    margin: 5px;
+    color: grey;
+}
+.petti-p{
+    margin: 2%;
+   font-size: 10px; 
+   color: black;
+}
+
+.sec3{
+    margin: 2%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.image3 img{
+    width: 400px;
+    height: 300px;
+} 
+.p-flex{
+    margin-left: 10%;
+    padding-top: 8%;
+    font-size: 20px;
+}
+.p-flex h2{
+    color: grey;
+}
+.p-flex h2 span{
+    color: black;
+    font-size: 20px;
+}
+.p-flex p{
+    margin-top: 2%;
+}
+.sec-4{
+    margin: 5%;
+}
+.sec-4 h1{
+    margin: 2%;
+    text-align:center;
+    font-size: 30px;
+}
+.image-4 img{
+    width: 250px;
+    height: 220px;
+}
+
+/* .image-4 .image-5 img{
+    width:200px;
+    height: 550px;
+} */
+.sec4{
+display: flex;
+justify-content: space-around;
+gap: 5px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.sec4 p{
+    font-size: 10px;
+    margin-left:3% ;
+}
+.sec4 h3{
+    margin-left: 3%;
+}
+
+.container-footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding: 2%;
+    font-size: 9px;
+}
+.container-footer h3{
+    margin: 2%;
+}
+.container-footer p{
+    
+}
+.container-footer .dernier{
+    padding-top: 2%;
+}
+
+.pettit-div{
+    margin: 3%;
+ text-align: center;
+ font-size: 9px;
+}
+.pettit-div hr{
+    margin-left:45%;
+    width: 70px;
+}
